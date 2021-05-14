@@ -126,11 +126,10 @@ app.post("/compose", function(req, res) {
 
 // If no heroku port that use local
 let port = process.env.PORT;
-if (port = null || port = "") {
+if (port == null || port == "") {
   port = 3000;
-}
 }
 
 app.listen(port, function() {
-  console.log("Server running on: " + port);
+  console.log("Server has  started successfully.");
 });
