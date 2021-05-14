@@ -8,7 +8,7 @@ const _ = require("lodash/string");
 // MONGO DB
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://admin-zoran:Moeko2021@personalblogdb.grkgh.mongodb.net/PersonalBlogDB", {
+mongoose.connect("mongodb+srv://YOUR USERNAME : YOUR PASSWORD @personalblogdb.grkgh.mongodb.net/PersonalBlogDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
