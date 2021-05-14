@@ -7,8 +7,8 @@ const _ = require("lodash/string");
 
 // MONGO DB
 const mongoose = require("mongoose");
-const mongoDBserverPort = 27017;
-mongoose.connect("mongodb://localhost:" + mongoDBserverPort + "/blogWebpage", {
+
+mongoose.connect("mongodb+srv://admin-zoran:Moeko2021@personalblogdb.grkgh.mongodb.net/PersonalBlogDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
